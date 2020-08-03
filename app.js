@@ -16,4 +16,4 @@ $(document).ready(function () {
    });
 }());
 
-//funtion auto invocada (funtion(){}())
+//funtion auto invocada (funtion(){...}())
