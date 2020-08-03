@@ -1,0 +1,150 @@
+*{
+	font-family: 'Anton', sans-serif;
+}
+
+body{
+	font-size: 16px;
+	background: linear-gradient(to top, rgb(167, 1, 34), #e2c106)
+}
+
+.head{
+	width: 100%;
+	background: black;
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+}
+
+div h1{
+	font-size: 4em;
+	color: white;
+	padding: 0.25em;
+	text-align: center;
+}
+
+header p{
+	margin:1em;
+}
+
+.desc{
+	font-size: 2em;
+	padding-top: 4em;
+}
+
+/*(Bootstrap) Utilizar container-fluid para autoajustar columnas, container sirve para tener columnas de tamaño fijo centradas en el viewport*/
+.container-fluid{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	margin-top: 4em;
+	-ms-grid-column-align: start;
+	grid-column-gap: 5em;
+}
+
+.container:first-child{
+	margin-left: 1em;
+}
+
+.hardware{
+	font-size: 3em; 
+}
+
+.gpu{
+	font-size: 2em;
+}
+
+div{
+	font-size: 1em;
+	margin: 0 1em;
+}
+
+
+.contacto__form{
+	font-size: 2em;
+}
+
+.nvidia__ul{
+	font-size: 2em;
+	display: inline-block;
+	margin: 1em 0.5em;
+}
+
+.amd__ul{
+	font-size: 2em;
+	display: inline-block;
+	margin: 1em 0.5em;
+}
+
+.nvidia__ul-li{
+	font-size: 2em;
+}
+
+.amd__ul-li{
+	font-size: 2em;
+}
+
+.reparaciones{
+	font-size: 1.5em;
+	padding: .5em 0;
+}
+
+
+.contacto__form-label{
+	font-size: 1em;
+	margin: 0.25em;
+	width: 20%;
+	display: block;
+}
+
+.contacto__form-input{
+	font-size: 1em;
+	display: block;
+}
+
+img{
+	height: 15em;
+}
+
+img:hover{
+	height: 25em;
+}
+
+textarea{
+	resize: none;
+}
+
+input{
+	background: black;
+	color: white;
+}
+
+textarea{
+	background: black;
+	color: white;
+}
+
+select{
+	background: black;
+	color: white;
+}
+
+
+footer{
+	font-size: 2em;
+	margin: 5em 1em;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		font-size: 12px;
+	}
+	.container-fluid{
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+}
