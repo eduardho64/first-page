@@ -1,18 +1,18 @@
 //jquery
 
 $(document).ready(function () {
-   var parrafo = $('#resultado p');
+   var img = $('img');
 
    $('.btn-primary').click(function () { 
-       parrafo.addClass('display-4');       
+       img.show();       
    });
 
    $('.btn-danger').click(function () { 
-       parrafo.removeClass('display-4');
+       img.hide();
    });
 
    $('.btn-warning').click(function () { 
-       parrafo.toggleClass('display-4');
+       img.toggle();
    });
 }());
 
